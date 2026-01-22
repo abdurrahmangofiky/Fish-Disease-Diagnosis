@@ -1,0 +1,204 @@
+{
+  "intents": [
+    {
+      "tag": "aeromonas",
+      "patterns": ["luka merah pada ikan", "aeromonas infeksi"],
+      "responses": ["Aeromoniasis:\nGejala: luka merah, ulkus, nafsu makan turun.\nPenanganan: antibiotik yang sesuai, perbaiki kualitas air dan kurangi stres."]
+    },
+    {
+      "tag": "septicemia",
+      "patterns": ["pendarahan di sirip", "ikan berdarah"],
+      "responses": ["Septicemia:\nGejala: pendarahan di permukaan tubuh atau sirip, lethargy.\nPenanganan: diagnosa bakteri, antibiotik, perbaikan sanitasi kolam."]
+    },
+    {
+      "tag": "vibrio",
+      "patterns": ["vibriosis", "ikan luka merah sering mati"],
+      "responses": ["Vibriosis:\nGejala: noda merah, lesi, mortalitas.\nPenanganan: antibiotik dan perbaikan kualitas air."]
+    },
+    {
+      "tag": "streptococcosis",
+      "patterns": ["ikan berenang memutar", "mata menonjol"],
+      "responses": ["Streptococcosis:\nGejala: perilaku abnormal, perdarahan internal, eksophtalmia.\nPenanganan: antibiotik (sesuai resep veteriner) dan manajemen biosecurity."]
+    },
+    {
+      "tag": "edwardsiellosis",
+      "patterns": ["bengkak di tubuh ikan", "edwardsiella"],
+      "responses": ["Edwardsiellosis:\nGejala: pembengkakan, lesi internal.\nPenanganan: antibiotik, perbaiki pakan dan kondisi lingkungan."]
+    },
+    {
+      "tag": "pseudomonas",
+      "patterns": ["luka melebar di kulit ikan", "pseudomonas"],
+      "responses": ["Infeksi Pseudomonas:\nGejala: ulkus, erosi kulit.\nPenanganan: antibiotik sesuai hasil kultur & sensitivitas."]
+    },
+    {
+      "tag": "mycobacteriosis",
+      "patterns": ["ikan kurus lama sembuh", "mycobacterium"],
+      "responses": ["Mycobacteriosis (Fish TB):\nGejala: berat badan turun kronis, lesi kronis.\nPenanganan: sulit disembuhkan; lakukan eliminasi stok terinfeksi dan sanitasi."]
+    },
+    {
+      "tag": "saprolegnia",
+      "patterns": ["kapas putih pada tubuh ikan", "jamur pada ikan"],
+      "responses": ["Jamur Saprolegnia:\nGejala: kapas putih pada kulit atau telur ikan.\nPenanganan: rendam garam, malachite green atau methylene blue, perbaiki kualitas air."]
+    },
+    {
+      "tag": "branchiomycosis",
+      "patterns": ["insang membusuk", "insang nekrosis"],
+      "responses": ["Branchiomycosis:\nGejala: insang rusak parah, ikan megap-megap.\nPenanganan: perbaiki kualitas air, kurangi kepadatan, konsultasi ahli ikan."]
+    },
+    {
+      "tag": "ichthyophonus",
+      "patterns": ["benjolan jaringan keras pada ikan", "ichthyophonus"],
+      "responses": ["Ichthyophonus:\nGejala: nodul keras pada jaringan, mortalitas kronis.\nPenanganan: tidak ada obat spesifik; lakukan seleksi dan sanitasi."]
+    },
+    {
+      "tag": "internal_parasite",
+      "patterns": ["ikan kurus feses aneh", "cacing dalam ikan"],
+      "responses": ["Parasit Internal:\nGejala: penurunan berat, feses abnormal.\nPenanganan: obat cacing (metronidazole/levamisole) sesuai dosis."]
+    },
+    {
+      "tag": "external_protozoa",
+      "patterns": ["bintik pada kulit protozoa", "infeksi protozoa"],
+      "responses": ["Parasit Protozoa Eksternal:\nGejala: bintik-bintik, gesekan tubuh.\nPenanganan: garam, formalin atau obat anti-protozoa."]
+    },
+    {
+      "tag": "hexamita",
+      "patterns": ["lubang di kepala ikan", "hole in the head"],
+      "responses": ["Hexamita:\nGejala: lubang kecil pada kepala.\nPenanganan: metronidazole dan perbaikan kualitas air serta nutrisi."]
+    },
+    {
+      "tag": "camallanus",
+      "patterns": ["cacing merah keluar dari anus ikan", "camallanus"],
+      "responses": ["Camallanus Worm:\nGejala: cacing merah terlihat pada anus.\nPenanganan: levamisole atau anthelmintik lainnya."]
+    },
+    {
+      "tag": "trichodina",
+      "patterns": ["ikan lendir berlebih trichodina", "trichodina gejala"],
+      "responses": ["Trichodina:\nGejala: lendir berlebih, ikan menggesek.\nPenanganan: mandi garam dan perbaikan kualitas air."]
+    },
+    {
+      "tag": "costia",
+      "patterns": ["kulit buram costia", "costia pada ikan"],
+      "responses": ["Costia:\nGejala: kulit kusam, ikan lesu.\nPenanganan: garam atau formalin dosis aman."]
+    },
+    {
+      "tag": "chilodonella",
+      "patterns": ["ikan lesu kulit kelabu", "chilodonella"],
+      "responses": ["Chilodonella:\nGejala: kulit kelabu, ikan lesu.\nPenanganan: garam, aerasi baik, obat khusus bila perlu."]
+    },
+    {
+      "tag": "khv",
+      "patterns": ["koi herpesvirus", "ikan koi mati massal"],
+      "responses": ["KHV:\nGejala: insang pucat, kematian massal.\nPenanganan: karantina ketat dan biosecurity."]
+    },
+    {
+      "tag": "svc",
+      "patterns": ["spring viremia carp", "svc"],
+      "responses": ["SVC:\nGejala: pendarahan sistemik.\nPenanganan: isolasi dan manajemen lingkungan."]
+    },
+    {
+      "tag": "vhs",
+      "patterns": ["viral hemorrhagic septicemia", "vhs gejala"],
+      "responses": ["VHS:\nGejala: pendarahan kulit & organ.\nPenanganan: biosecurity dan karantina."]
+    },
+    {
+      "tag": "ammonia_poisoning",
+      "patterns": ["amonia tinggi ikan sakit", "ikan insang merah amonia"],
+      "responses": ["Keracunan Amonia:\nGejala: insang merah, megap-megap.\nPenanganan: ganti air, kurangi pakan, perbaiki filtrasi."]
+    },
+    {
+      "tag": "nitrite_poisoning",
+      "patterns": ["nitrit tinggi ikan", "ikan insang coklat nitrit"],
+      "responses": ["Keracunan Nitrit:\nGejala: insang kecoklatan.\nPenanganan: tambah garam & stabilisasi siklus nitrogen."]
+    },
+    {
+      "tag": "nitrate_poisoning",
+      "patterns": ["nitrat tinggi ikan lemas", "nitrate gejala"],
+      "responses": ["Keracunan Nitrat:\nGejala: ikan lemas.\nPenanganan: ganti air berkala."]
+    },
+    {
+      "tag": "oxygen_deficiency",
+      "patterns": ["ikan di permukaan napas kuat", "kekurangan oksigen"],
+      "responses": ["Kekurangan Oksigen:\nGejala: ikan berkumpul di permukaan.\nPenanganan: tambah aerasi & kurangi padat tebar."]
+    },
+    {
+      "tag": "ph_shock",
+      "patterns": ["ph tiba tiba berubah ikan", "ph shock"],
+      "responses": ["pH Shock:\nGejala: stres, hilang keseimbangan.\nPenanganan: stabilkan pH bertahap."]
+    },
+    {
+      "tag": "chlorine_poisoning",
+      "patterns": ["klorin air kolam ikan", "air mengandung klorin"],
+      "responses": ["Keracunan Klorin:\nGejala: insang rusak.\nPenanganan: gunakan dechlorinator."]
+    },
+    {
+      "tag": "malnutrition",
+      "patterns": ["ikan pertumbuhan lambat", "ikan kurus pakan kurang"],
+      "responses": ["Malnutrisi:\nGejala: pertumbuhan lambat, warna pudar.\nPenanganan: pakan berkualitas & vitamin."]
+    },
+    {
+      "tag": "obesity",
+      "patterns": ["ikan perut besar obesitas", "ikan terlalu gemuk"],
+      "responses": ["Obesitas:\nGejala: perut besar.\nPenanganan: kurangi pakan."]
+    },
+    {
+      "tag": "fatty_liver",
+      "patterns": ["hati berlemak ikan", "fatty liver"],
+      "responses": ["Fatty Liver:\nGejala: ikan lemah.\nPenanganan: turunkan lemak pakan."]
+    },
+    {
+      "tag": "gas_bubble",
+      "patterns": ["gelembung di tubuh ikan", "gas bubble disease"],
+      "responses": ["Gas Bubble Disease:\nGejala: gelembung pada organ.\nPenanganan: kurangi supersaturasi gas."]
+    },
+    {
+      "tag": "sunburn",
+      "patterns": ["ikan kulit merah matahari", "ikan terbakar matahari"],
+      "responses": ["Sunburn:\nGejala: kulit merah.\nPenanganan: beri naungan kolam."]
+    },
+    {
+      "tag": "stress_handling",
+      "patterns": ["ikan stres setelah pindah", "ikan stress handling"],
+      "responses": ["Stress Handling:\nGejala: warna gelap.\nPenanganan: kurangi penanganan & stabilkan air."]
+    },
+    {
+      "tag": "bloat",
+      "patterns": ["kembung tiba tiba ikan", "bloat ikan"],
+      "responses": ["Bloat:\nGejala: perut membesar.\nPenanganan: puasa, ganti air, antibiotik bila bakteri."]
+    },
+    {
+      "tag": "gas_in_gut",
+      "patterns": ["ikan mengapung setelah makan", "gas in gut"],
+      "responses": ["Gas in Gut:\nGejala: mengapung setelah makan.\nPenanganan: rendam pelet sebelum diberikan."]
+    },
+    {
+      "tag": "gill_necrosis",
+      "patterns": ["insang mati gill necrosis", "insang hitam"],
+      "responses": ["Gill Necrosis:\nGejala: insang hitam.\nPenanganan: perbaiki aerasi & kualitas air."]
+    },
+    {
+      "tag": "skin_ulcer",
+      "patterns": ["luka terbuka pada kulit ikan", "ulcus kulit ikan"],
+      "responses": ["Skin Ulcer:\nGejala: luka terbuka.\nPenanganan: antiseptik lokal & antibiotik."]
+    },
+    {
+      "tag": "fungus_on_wound",
+      "patterns": ["jamur tumbuh di luka ikan", "wound fungus"],
+      "responses": ["Jamur pada Luka:\nGejala: jamur di area luka.\nPenanganan: methylene blue/iodine & kebersihan luka."]
+    },
+    {
+      "tag": "swim_stress",
+      "patterns": ["ikan kelelahan arus", "arus terlalu kuat"],
+      "responses": ["Swim Stress:\nGejala: ikan lelah.\nPenanganan: kurangi kecepatan arus."]
+    },
+    {
+      "tag": "temperature_shock",
+      "patterns": ["suhu turun naik ikan sakit", "temperature shock"],
+      "responses": ["Temperature Shock:\nGejala: warna pudar, pasif.\nPenanganan: stabilkan suhu bertahap."]
+    },
+    {
+      "tag": "overcrowding",
+      "patterns": ["kepadatan ikan terlalu banyak", "overcrowding gejala"],
+      "responses": ["Overcrowding:\nGejala: agresi meningkat, nafsu makan turun.\nPenanganan: kurangi kepadatan."]
+    }
+  ]
+}
